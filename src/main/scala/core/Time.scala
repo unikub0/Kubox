@@ -3,4 +3,5 @@ package core
 
 object Time:
   private[core] var _dt = 0.0
-  def dt = _dt
+
+  def dt: Double = _dt

@@ -1,7 +1,7 @@
 package id.unikub.kubox
 package core
 
-import id.unikub.kubox.services.EngineService
+import services.EngineService
 
 abstract class Renderer extends EngineService:
   def render(): Unit

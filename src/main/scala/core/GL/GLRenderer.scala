@@ -1,7 +1,6 @@
 package id.unikub.kubox
 package core.GL
-
-import id.unikub.kubox.core.Renderer
+import core.Renderer
 import org.lwjgl.opengl.GL
 import org.lwjgl.opengl.GL11.*
 

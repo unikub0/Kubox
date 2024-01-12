@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
   module =>
     Seq(
       "org.lwjgl" % module % lwjglVer,
-      "org.lwjgl" % module % lwjglVer classifier s"natives-${osDev}"
+      "org.lwjgl" % module % lwjglVer classifier s"natives-$osDev"
     )
 )
 lazy val root = (project in file("."))
